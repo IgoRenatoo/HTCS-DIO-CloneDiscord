@@ -4,8 +4,8 @@
 .containTwo {
   display: flex;
   flex-direction: column;
-  margin: 40px 20px;
-  width: 380px;
+  width: 430px;
+  padding: 40px 20px;
   font-family:'Open Sans', Arial, Helvetica, sans-serif;
   background-color: var(--color-whitelow);
   gap: 25px;

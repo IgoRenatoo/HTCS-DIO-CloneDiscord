@@ -3,7 +3,5 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 428px;
-  margin: 0 auto;
-  padding: 20px;  
+  width: 430px;
 }
