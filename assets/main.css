@@ -5,3 +5,25 @@ main {
   align-items: center;
   width: 430px;
 }
+.containMain {
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+  padding: 40px 20px;
+  gap: 25px;
+  font-family:'Open Sans', Arial, Helvetica, sans-serif;
+  color: var(--color-gray);
+}
+.containMain img {
+  height: 100%;
+}
+.containMain h3 { 
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 32px;
+}
+.containMain p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
