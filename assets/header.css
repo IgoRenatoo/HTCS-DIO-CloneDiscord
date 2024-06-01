@@ -1,0 +1,44 @@
+@import url(./global.css);
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  background: url(./imagens/Header-Background-Discord.png) right/cover no-repeat;
+  height: 28rem;
+}
+.containHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+  gap: 25px;
+  width: 428px;
+  height: 510px;
+  color: var(--cor-white);
+}
+.titleHeader {
+  font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  width: 280px;
+}
+.textHeader {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  width: 380px;
+}
+.buttonHeader {
+  margin: 10px 0;
+  width: 380px;
+  height: 54px;
+  border-radius: 28px;
+}
+.buttonHeader:nth-child(2) {
+background-color: black;
+color: white;
+}
