@@ -17,6 +17,12 @@ main {
 .containMain img {
   height: 100%;
 }
+.containMain h1 {  
+  font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;  
+}
 .containMain h3 { 
   font-weight: 800;
   font-size: 25px;
