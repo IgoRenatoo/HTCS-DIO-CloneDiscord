@@ -3,9 +3,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 10px;
-  background: url(./imagens/Header-Background-Discord.png) right/cover no-repeat;
-  height: 28rem;
+  padding: 20px;
+  background: url(./imagens/Header-Background-Discord.png) right/cover no-repeat;  
 }
 .containHeader {
   display: flex;
@@ -13,9 +12,8 @@ header {
   align-items: right;
   justify-content: center;
   gap: 25px;
-  width: 428px;
-  height: 510px;
-  color: var(--cor-white);
+  width: 430px;
+  color: var(--color-white);
 }
 .titleHeader {
   font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
