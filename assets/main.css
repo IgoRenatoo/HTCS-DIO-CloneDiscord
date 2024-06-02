@@ -1,8 +1,9 @@
-@import url(./global.css);
+/* @import url(./global.css);
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
   width: 430px;
 }
 .containMain {
@@ -23,7 +24,8 @@ main {
   font-size: 32px;
   line-height: 32px;  
 }
-.containMain h3 { 
+.containMain h3 {
+  text-align: justify;
   font-weight: 800;
   font-size: 25px;
   line-height: 32px;
@@ -32,4 +34,38 @@ main {
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-}
+} */
+/* @media screen and (min-width: 431px) {
+  main {
+    width: 100%;
+  }
+  .containMain {
+    flex-direction: row;
+    width: 1000px;
+    gap: 16px;
+  }
+  .containMain img {
+    height: 100%;
+    width: 100%;
+  }
+  section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: column;
+    width: 350px;
+    gap: 10px;
+  }
+  .containMain h3 {  
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    width: 330px;
+  }
+  .containMain p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  }
+} */

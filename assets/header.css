@@ -3,40 +3,59 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 1.25rem;
+  width: 100%;
+  object-fit: cover;
   background: url(./imagens/Header-Background-Discord.png) right/cover no-repeat;  
 }
 .containHeader {
   display: flex;
   flex-direction: column;
-  align-items: right;
+  align-items: center;
   justify-content: center;
-  gap: 25px;
-  width: 430px;
+  max-width: 47rem;
+  gap: 1.5rem;
   color: var(--color-white);
 }
 .titleHeader {
+  text-align: center;
+  max-width: 20rem;
   font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 32px;
-  letter-spacing: 2px;
-  width: 280px;
+  font-size: 2rem;
+  line-height: 2rem;
+  letter-spacing: 2px;  
 }
 .textHeader {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-  width: 380px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  word-spacing: 2.5px;
 }
 .buttonHeader {
-  margin: 10px 0;
-  width: 380px;
-  height: 54px;
-  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  width: 80%;  
+  gap: 10px;
 }
-.buttonHeader:nth-child(2) {
+.buttonHeader button {
+  flex-grow: 0.5;
+  padding: 5px 10px;  
+  height: 3.5rem;
+  border-radius: 3.5rem;
+}
+.buttonHeader button:nth-child(2) {
 background-color: black;
 color: white;
+}
+@media screen and (max-width: 600px) {
+  .titleHeader {
+    text-align: left;
+    max-width: none;
+  }
+  .buttonHeader {
+    flex-direction: column;
+    gap: 20px;    
+  }
 }
