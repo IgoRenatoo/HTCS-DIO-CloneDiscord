@@ -1,71 +1,69 @@
-/* @import url(./global.css);
-main {
-  display: flex;
-  flex-direction: column;
+@import url(./global.css);
+.sectionMain {
+  display: flex;  
+  justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  width: 430px;
-}
-.containMain {
-  display: flex;
-  flex-direction: column;
-  width: 430px;
-  padding: 40px 20px;
-  gap: 25px;
+  gap: 1rem;
+  padding: 40px 10px;
   font-family:'Open Sans', Arial, Helvetica, sans-serif;
   color: var(--color-gray);
 }
-.containMain img {
-  height: 100%;
+.sectionMain img {
+  width: 60%;
+  max-width: 1000px;
+  min-width: 320px;
+  height: auto;
 }
-.containMain h1 {  
+.sectionMain div {
+  display: flex;
+  flex-direction: column;
+  max-width: 22rem;
+  gap: 10px;
+}
+.sectionMain div h3 {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 3.4rem;
+}
+.sectionMain div p {  
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  word-spacing: 2px;
+} 
+.sectionMain div h1 {  
   font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 32px;
-  line-height: 32px;  
+  font-size: 2rem;
+  line-height: 2.25rem;
+  letter-spacing: 2px;
 }
-.containMain h3 {
-  text-align: justify;
-  font-weight: 800;
-  font-size: 25px;
-  line-height: 32px;
-}
-.containMain p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
-} */
-/* @media screen and (min-width: 431px) {
-  main {
-    width: 100%;
-  }
-  .containMain {
-    flex-direction: row;
-    width: 1000px;
-    gap: 16px;
-  }
-  .containMain img {
-    height: 100%;
-    width: 100%;
-  }
-  section div {
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+@media screen and (max-width: 1000px) {
+  .sectionMain {
     flex-direction: column;
-    width: 350px;
-    gap: 10px;
+    align-items: center;
+    justify-content: center;
   }
-  .containMain h3 {  
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    font-size: 40px;
-    line-height: 40px;
-    width: 330px;
+  .sectionMain img {
+    width: 80%;
+    max-width: 750px;
   }
-  .containMain p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
+  .sectionMain div {
+    max-width: 80%;
   }
-} */
+}
+@media screen and (max-width: 700px) {
+  .sectionMain div h3 {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+  .sectionMain div p {  
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+  .sectionMain div h1 {  
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}

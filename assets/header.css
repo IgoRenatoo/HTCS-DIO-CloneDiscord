@@ -22,14 +22,14 @@ header {
   max-width: 20rem;
   font-family: 'Luckiest Guy', Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 2.25rem;
   line-height: 2rem;
   letter-spacing: 2px;  
 }
 .textHeader {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1.5rem;
   word-spacing: 2.5px;
 }
@@ -41,9 +41,10 @@ header {
 }
 .buttonHeader button {
   flex-grow: 0.5;
-  padding: 5px 10px;  
+  padding: 5px 10px; 
   height: 3.5rem;
   border-radius: 3.5rem;
+  font-size: 1rem;
 }
 .buttonHeader button:nth-child(2) {
 background-color: black;
